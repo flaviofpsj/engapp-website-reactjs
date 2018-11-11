@@ -1,44 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# EngApp Website ReactJS ![Github Stars](https://img.shields.io/github/stars/ffpsj/engapp-website-reactjs.svg?label=Stars) ![Github Forks](https://img.shields.io/github/forks/ffpsj/engapp-website-reactjs.svg?label=Forks) ![Github Watchers](https://img.shields.io/github/watchers/ffpsj/engapp-website-reactjs.svg?label=Watchers) ![Github Followers](https://img.shields.io/github/followers/ffpsj.svg?label=Followers) ![Github Contributors](https://img.shields.io/github/contributors/ffpsj/engapp-website-reactjs.svg?label=Contributors) ![Github Repository Size](https://img.shields.io/github/repo-size/ffpsj/engapp-website-reactjs.svg?label=Size)
 
-## Available Scripts
+![Header](https://i.imgur.com/CMx27EN.png)
 
-In the project directory, you can run:
+EngApp website made in ReactJS
 
-### `npm start`
+## Contributors
+<a href="https://github.com/ffpsj"><img src="https://i.imgur.com/TlK8zDB.png" title="Flávio Farias"></a>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## On Changing Implementation
++ Feel free to clone this repository `git clone https://github.com/ffpsj/engapp-website-reactjs.git`
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Download
++ [Repository Download](https://github.com/ffpsj/engapp-website-reactjs/archive/master.zip)
 
-### `npm test`
+## My Other Pages
+<a href="https://www.facebook.com/flaviofariasjr"><img src="https://i.imgur.com/bHRTPvs.png" title="Facebook Profile"></a> <a href="https://www.instagram.com/flavioaq2"><img src="https://i.imgur.com/VrYSoc0.png" title="Instagram Profile"></a> <a href="https://www.linkedin.com/in/ffpsj"><img src="https://i.imgur.com/ERL5FFt.png" title="Linkedin Profile"></a> <a href="https://www.medium.com/@ffpsj"><img src="https://i.imgur.com/UPR0HtK.png" title="Medium Profile"></a>
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact Me
++ E-mail: flavio@engapp.com.br
++ Phone: +5582991213725
