@@ -7,7 +7,7 @@ class Contact extends Component {
 
     this.state = {
       style: {
-        backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/contact.png?alt=media&token=d4647b05-3014-4be2-8015-0f785688913a)`,
+        backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/headers%2Fcontact.png?alt=media&token=19a3b16b-d07e-4536-a4c5-38ab5782d730)`,
         backgroundPosition: 'center', backgroundSize: 'cover',
       }
     }

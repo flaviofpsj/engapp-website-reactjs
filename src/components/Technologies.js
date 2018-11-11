@@ -9,7 +9,7 @@ class Technologies extends Component {
 
     this.state = {
       style: {
-        backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/technologies.png?alt=media&token=59c8f557-6fb4-4be9-ad27-3269182625b1)`,
+        backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/headers%2Ftechnologies.png?alt=media&token=764a3926-9882-4b95-a4e0-4c9a105676fe)`,
         backgroundPosition: 'center', backgroundSize: 'cover',
       },
       technologiesItem: [
