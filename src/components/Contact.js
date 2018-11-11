@@ -6,7 +6,7 @@ class Contact extends Component {
   render() {
     return (
       <React.Fragment>
-        <div style={{ backgroundImage: 'url(' + ContactHeader + ')', backgroundPosition: 'center', backgroundSize: 'cover' }} data-bs-parallax-bg='true' id='contato'>
+        <div style={{ backgroundImage: `url(${ ContactHeader })`, backgroundPosition: 'center', backgroundSize: 'cover' }} data-bs-parallax-bg='true' id='contato'>
           <h1 className='text-white' id='bottom-titles'>Contato</h1>
         </div>
         <div className='features-boxed'>

@@ -6,7 +6,7 @@ class Technologies extends Component {
   render() {
     return (
       <React.Fragment>
-        <div style={{ backgroundImage: 'url(' + TechnologiesHeader + ')', backgroundPosition: 'center', backgroundSize: 'cover' }} data-bs-parallax-bg='true' id='tecnologias'>
+        <div style={{ backgroundImage: `url(${ TechnologiesHeader })`, backgroundPosition: 'center', backgroundSize: 'cover' }} data-bs-parallax-bg='true' id='tecnologias'>
           <h1 className='text-white' id='bottom-titles'>Tecnologias</h1>
         </div>
         <div className='features-boxed'>
