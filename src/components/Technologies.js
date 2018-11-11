@@ -2,7 +2,47 @@ import React, { Component } from 'react';
 
 import TechnologiesHeader from './../img/technologies.png';
 
+import TechnologiesItem from './TechnologiesItem';
+
 class Technologies extends Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      technologies: [
+        {url: require('./../img/aws.png'), title: 'AWS'},
+        {url: require('./../img/bootstrap4.png'), title: 'Bootstrap 4'},
+        {url: require('./../img/c++.png'), title: 'C++'},
+        {url: require('./../img/css3.png'), title: 'CSS3'},
+        {url: require('./../img/dart.png'), title: 'Dart'},
+        {url: require('./../img/docker.png'), title: 'Docker'},
+        {url: require('./../img/es6.png'), title: 'ES6'},
+        {url: require('./../img/expressjs.png'), title: 'ExpressJS'},
+        {url: require('./../img/figma.png'), title: 'Figma'},
+        {url: require('./../img/firebase.png'), title: 'Firebase'},
+        {url: require('./../img/flutter.png'), title: 'Flutter'},
+        {url: require('./../img/gimp.png'), title: 'GIMP'},
+        {url: require('./../img/git.png'), title: 'Git'},
+        {url: require('./../img/golang.png'), title: 'Golang'},
+        {url: require('./../img/html5.png'), title: 'HTML5'},
+        {url: require('./../img/java.png'), title: 'Java'},
+        {url: require('./../img/javascript.png'), title: 'JavaScript'},
+        {url: require('./../img/kotlin.png'), title: 'Kotlin'},
+        {url: require('./../img/loopback.png'), title: 'Loopback'},
+        {url: require('./../img/materialdesign.png'), title: 'Material Design'},
+        {url: require('./../img/mongodb.png'), title: 'MongoDB'},
+        {url: require('./../img/mysql.png'), title: 'MySQL'},
+        {url: require('./../img/nodejs.png'), title: 'NodeJS'},
+        {url: require('./../img/photoshop.png'), title: 'Photoshop'},
+        {url: require('./../img/postgresql.png'), title: 'PostgreSQL'},
+        {url: require('./../img/python.png'), title: 'Python'},
+        {url: require('./../img/react.png'), title: 'React'},
+        {url: require('./../img/spring.png'), title: 'Spring'},
+      ]
+    }
+  }
+
   render() {
     return (
       <React.Fragment>
@@ -12,174 +52,13 @@ class Technologies extends Component {
         <div className='features-boxed'>
           <div className='container'>
             <div className='row justify-content-center features'>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/aws.png')} alt='AWS' id='tech-image' />
-                  <h3 id='tech-title' className='name'>AWS</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/bootstrap4.png')} alt='Bootstrap 4' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Bootstrap 4</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/c++.png')} alt='C++' id='tech-image' />
-                  <h3 id='tech-title' className='name'>C++</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/css3.png')} alt='CSS3' id='tech-image' />
-                  <h3 id='tech-title' className='name'>CSS3</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/dart.png')} alt='Dart' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Dart</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/docker.png')} alt='Docker' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Docker</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/es6.png')} alt='ES6' id='tech-image' />
-                  <h3 id='tech-title' className='name'>ES6</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/expressjs.png')} alt='ExpressJS' id='tech-image' />
-                  <h3 id='tech-title' className='name'>ExpressJS</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/figma.png')} alt='Figma' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Figma</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/firebase.png')} alt='Firebase' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Firebase</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/flutter.png')} alt='Flutter' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Flutter</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/gimp.png')} alt='GIMP' id='tech-image' />
-                  <h3 id='tech-title' className='name'>GIMP</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/git.png')} alt='Git' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Git</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/golang.png')} alt='Golang' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Golang</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/html5.png')} alt='HTML5' id='tech-image' />
-                  <h3 id='tech-title' className='name'>HTML5</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/java.png')} alt='Java' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Java</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/javascript.png')} alt='JavaScript' id='tech-image' />
-                  <h3 id='tech-title' className='name'>JavaScript</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/kotlin.png')} alt='Kotlin' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Kotlin</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/loopback.png')} alt='Loopback' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Loopback</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/materialdesign.png')} alt='Material Design' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Material Design</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/mongodb.png')} alt='MongoDB' id='tech-image' />
-                  <h3 id='tech-title' className='name'>MongoDB</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/mysql.png')} alt='MySQL' id='tech-image' />
-                  <h3 id='tech-title' className='name'>MySQL</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/nodejs.png')} alt='NodeJS' id='tech-image' />
-                  <h3 id='tech-title' className='name'>NodeJS</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/photoshop.png')} alt='Photoshop' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Photoshop</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/postgresql.png')} alt='PostgreSQL' id='tech-image' />
-                  <h3 id='tech-title' className='name'>PostgreSQL</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/python.png')} alt='Python' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Python</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/react.png')} alt='React' id='tech-image' />
-                  <h3 id='tech-title' className='name'>React</h3>
-                </div>
-              </div>
-              <div className='col-sm-6 col-md-4 col-lg-3 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='img-fluid' src={require('./../img/spring.png')} alt='Spring' id='tech-image' />
-                  <h3 id='tech-title' className='name'>Spring</h3>
-                </div>
-              </div>
+              {
+                Object.keys(this.state.technologies).map(index => {
+                  return(
+                    <TechnologiesItem key={index} content={this.state.technologies[index]} />
+                  )
+                })
+              }
             </div>
           </div>
         </div>
