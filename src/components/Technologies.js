@@ -12,7 +12,7 @@ class Technologies extends Component {
         backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/technologies.png?alt=media&token=59c8f557-6fb4-4be9-ad27-3269182625b1)`,
         backgroundPosition: 'center', backgroundSize: 'cover',
       },
-      technologies: [
+      technologiesItem: [
         {
           url: 'https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/aws.png?alt=media&token=54a5bb52-07cd-4e1d-b0e2-924cc0987357',
           title: 'AWS'
@@ -139,9 +139,9 @@ class Technologies extends Component {
           <div className='container'>
             <div className='row justify-content-center features'>
               {
-                Object.keys(this.state.technologies).map(index => {
+                Object.keys(this.state.technologiesItem).map(index => {
                   return(
-                    <TechnologiesItem key={index} content={this.state.technologies[index]} />
+                    <TechnologiesItem key={index} content={this.state.technologiesItem[index]} />
                   )
                 })
               }
