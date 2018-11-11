@@ -1,12 +1,22 @@
 import React, { Component } from 'react';
 
-import ContactHeader from './../img/contact.png';
-
 class Contact extends Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      style: {
+        backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/contact.png?alt=media&token=d4647b05-3014-4be2-8015-0f785688913a)`,
+        backgroundPosition: 'center', backgroundSize: 'cover',
+      }
+    }
+  }
+
   render() {
     return (
       <React.Fragment>
-        <div style={{ backgroundImage: `url(${ ContactHeader })`, backgroundPosition: 'center', backgroundSize: 'cover' }} data-bs-parallax-bg='true' id='contato'>
+        <div style={this.state.style} data-bs-parallax-bg='true' id='contato'>
           <h1 className='text-white' id='bottom-titles'>Contato</h1>
         </div>
         <div className='features-boxed'>
