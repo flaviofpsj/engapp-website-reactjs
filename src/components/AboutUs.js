@@ -1,6 +1,48 @@
 import React, { Component } from 'react';
 
+import AboutUsItem from './AboutUsItem';
+
 class AboutUs extends Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      aboutUsItem: [
+        {
+          imageSrc: require('./../img/luccas.png'), name: 'Luccas Augusto', office: 'Diretor Executivo',
+          facebook: 'https://www.facebook.com/luccasskywalker', instagram: 'https://www.instagram.com/luccascunhasilva', linkedin: 'https://www.linkedin.com/in/luccasaugusto',
+          github: 'https://github.com/LuccasAugusto', medium: 'https://medium.com/@engapplabs',
+        },
+        {
+          imageSrc: require('./../img/aurelio.png'), name: 'Aurélio Buarque', office: 'Diretor de Tecnologia',
+          facebook: 'https://www.facebook.com/aurelio.buarque', instagram: 'https://www.instagram.com/abuarquemf', linkedin: 'https://www.linkedin.com/in/aurelio-buarque',
+          github: 'https://github.com/ABuarque', medium: 'https://medium.com/@abuarquemf',
+        },
+        {
+          imageSrc: require('./../img/hugo.png'), name: 'Hugo Davi', office: 'Diretor de Operações',
+          facebook: 'https://www.facebook.com/hugo.hdado', instagram: 'https://www.instagram.com/hugodavi', linkedin: 'https://www.linkedin.com/in/hugodavi',
+          github: 'https://github.com/HugoDavi', medium: 'https://medium.com/@hugo.hdado',
+        },
+        {
+          imageSrc: require('./../img/malta.png'), name: 'Fellipe Malta', office: 'Head de Front-end',
+          facebook: 'https://www.facebook.com/fellipe.dm', instagram: 'https://www.instagram.com/fellipe.dm', linkedin: 'https://www.linkedin.com/in/fellipedm',
+          github: 'https://github.com/fmmalta', medium: 'https://medium.com/@fellipemalta',
+        },
+        {
+          imageSrc: require('./../img/flavio.png'), name: 'Flávio Farias', office: 'Head de Design',
+          facebook: 'https://www.facebook.com/flaviofariasjr', instagram: 'https://www.instagram.com/flavioaq2', linkedin: 'https://www.linkedin.com/in/ffpsj',
+          github: 'https://github.com/ffpsj', medium: 'https://medium.com/@ffpsj',
+        },
+        {
+          imageSrc: require('./../img/pedro.png'), name: 'Pedro Soares', office: 'Head de Back-end',
+          facebook: 'https://www.facebook.com/pedro.soares.58726', instagram: 'https://www.instagram.com/pedroh_soaresc', linkedin: 'https://www.linkedin.com/in/pedrohsoares',
+          github: 'https://github.com/pedrohsoares', medium: 'https://medium.com/@engapplabs',
+        },
+      ]
+    }
+  }
+
   render() {
     return (
       <React.Fragment>
@@ -10,150 +52,13 @@ class AboutUs extends Component {
             <p className='text-center' data-aos='fade-up'>A EngApp é uma empresa de inovação digital e desenvolvimento de software ágil. Combinamos processos de inovação, design de UX, tecnologia de ponta e visão de negócios para criar software que reposiciona os nossos clientes no mundo dos negócios digitais.</p>
             <h2 className='text-center' data-aos='fade-up'>Membros</h2>
             <div className='row people'>
-              <div className='col-md-6 col-lg-4 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='rounded-circle' src={require('./../img/luccas.png')} alt='Luccas Augusto' />
-                  <h3 className='name'>Luccas Augusto</h3>
-                  <p className='title'>Diretor Executivo</p>
-                  <div className='social'>
-                    <a href='https://www.facebook.com/luccasskywalker' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-facebook-f'></i>
-                    </a>
-                    <a href='https://www.instagram.com/luccascunhasilva' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-instagram'></i>
-                    </a>
-                    <a href='https://www.linkedin.com/in/luccasaugusto' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-linkedin-in'></i>
-                    </a>
-                    <a href='https://github.com/LuccasAugusto' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-github'></i>
-                    </a>
-                    <a href='https://medium.com/@engapplabs' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-medium-m'></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className='col-md-6 col-lg-4 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='rounded-circle' src={require('./../img/aurelio.png')} alt='Aurélio Buarque' />
-                  <h3 className='name'>Aurélio Buarque</h3>
-                  <p className='title'>Diretor de Tecnologia</p>
-                  <div className='social'>
-                    <a href='https://www.facebook.com/aurelio.buarque' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-facebook-f'></i>
-                    </a>
-                    <a href='https://www.instagram.com/abuarquemf' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-instagram'></i>
-                    </a>
-                    <a href='https://www.linkedin.com/in/aurelio-buarque' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-linkedin-in'></i>
-                    </a>
-                    <a href='https://github.com/ABuarque' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-github'></i>
-                    </a>
-                    <a href='https://medium.com/@abuarquemf' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-medium-m'></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className='col-md-6 col-lg-4 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='rounded-circle' src={require('./../img/hugo.png')} alt='Hugo Davi' />
-                  <h3 className='name'>Hugo Davi</h3>
-                  <p className='title'>Diretor de Operações</p>
-                  <div className='social'>
-                    <a href='https://www.facebook.com/hugo.hdado' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-facebook-f'></i>
-                    </a>
-                    <a href='https://www.instagram.com/hugodavi' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-instagram'></i>
-                    </a>
-                    <a href='https://www.linkedin.com/in/hugodavi' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-linkedin-in'></i>
-                    </a>
-                    <a href='https://github.com/HugoDavi' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-github'></i>
-                    </a>
-                    <a href='https://medium.com/@hugo.hdado' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-medium-m'></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className='col-md-6 col-lg-4 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='rounded-circle' src={require('./../img/malta.png')} alt='Fellipe Malta' />
-                  <h3 className='name'>Fellipe Malta</h3>
-                  <p className='title'>Head de Front-end</p>
-                  <div className='social'>
-                    <a href='https://www.facebook.com/fellipe.dm' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-facebook-f'></i>
-                    </a>
-                    <a href='https://www.instagram.com/fellipe.dm' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-instagram'></i>
-                    </a>
-                    <a href='https://www.linkedin.com/in/fellipedm' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-linkedin-in'></i>
-                    </a>
-                    <a href='https://github.com/fmmalta' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-github'></i>
-                    </a>
-                    <a href='https://medium.com/@fellipemalta' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-medium-m'></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className='col-md-6 col-lg-4 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='rounded-circle' src={require('./../img/flavio.png')} alt='Flávio Farias' />
-                  <h3 className='name'>Flávio Farias</h3>
-                  <p className='title'>Head de Design</p>
-                  <div className='social'>
-                    <a href='https://www.facebook.com/flaviofariasjr' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-facebook-f'></i>
-                    </a>
-                    <a href='https://www.instagram.com/flavioaq2' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-instagram'></i>
-                    </a>
-                    <a href='https://www.linkedin.com/in/ffpsj' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-linkedin-in'></i>
-                    </a>
-                    <a href='https://github.com/ffpsj' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-github'></i>
-                    </a>
-                    <a href='https://medium.com/@ffpsj' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-medium-m'></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className='col-md-6 col-lg-4 item' data-aos='fade-up'>
-                <div className='box'>
-                  <img className='rounded-circle' src={require('./../img/pedro.png')} alt='Pedro Soares' />
-                  <h3 className='name'>Pedro Soares</h3>
-                  <p className='title'>Head de Back-end</p>
-                  <div className='social'>
-                    <a href='https://www.facebook.com/pedro.soares.58726' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-facebook-f'></i>
-                    </a>
-                    <a href='https://www.instagram.com/pedroh_soaresc' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-instagram'></i>
-                    </a>
-                    <a href='https://www.linkedin.com/in/pedrohsoares' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-linkedin-in'></i>
-                    </a>
-                    <a href='https://github.com/pedrohsoares' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-github'></i>
-                    </a>
-                    <a href='https://medium.com/@engapplabs' target='_blank' rel='noopener noreferrer'>
-                      <i className='fab fa-medium-m'></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
+              {
+                Object.keys(this.state.aboutUsItem).map(index => {
+                  return(
+                    <AboutUsItem key={index} content={this.state.aboutUsItem[index]} />
+                  )
+                })
+              }
             </div>
           </div>
         </div>
