@@ -2,7 +2,7 @@
   "name": "EngApp | Site Oficial",
   "short_name": "EngApp",
   "description": "Site Oficial da EngApp.",
-  "start_url": ".",
+  "start_url": "./?utm_source=web_app_manifest",
   "display": "standalone",
   "theme_color": "#242424",
   "background_color": "#242424",
