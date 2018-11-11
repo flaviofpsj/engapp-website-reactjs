@@ -8,7 +8,7 @@ class Navbar extends Component {
           <nav className='navbar navbar-dark navbar-expand-lg fixed-top bg-dark transparency border-bottom border-light' id='transmenu'>
             <div className='container-fluid'>
               <a className='navbar-brand text-success' href='index.html'>
-                <img className='img-fluid' src={require('./../img/logo.png')} />
+                <img className='img-fluid' src={require('./../img/logo.png')} alt='EngApp' />
               </a>
               <button className='navbar-toggler collapsed' data-toggle='collapse' data-target='#navcol-1'>
                 <span></span>

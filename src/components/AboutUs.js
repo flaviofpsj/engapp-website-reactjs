@@ -12,23 +12,23 @@ class AboutUs extends Component {
             <div className='row people'>
               <div className='col-md-6 col-lg-4 item' data-aos='fade-up'>
                 <div className='box'>
-                  <img className='rounded-circle' src={require('./../img/luccas.png')} />
+                  <img className='rounded-circle' src={require('./../img/luccas.png')} alt='Luccas Augusto' />
                   <h3 className='name'>Luccas Augusto</h3>
                   <p className='title'>Diretor Executivo</p>
                   <div className='social'>
-                    <a href='https://www.facebook.com/luccasskywalker' target='_blank'>
+                    <a href='https://www.facebook.com/luccasskywalker' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-facebook-f'></i>
                     </a>
-                    <a href='https://www.instagram.com/luccascunhasilva' target='_blank'>
+                    <a href='https://www.instagram.com/luccascunhasilva' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-instagram'></i>
                     </a>
-                    <a href='https://www.linkedin.com/in/luccasaugusto' target='_blank'>
+                    <a href='https://www.linkedin.com/in/luccasaugusto' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-linkedin-in'></i>
                     </a>
-                    <a href='https://github.com/LuccasAugusto' target='_blank'>
+                    <a href='https://github.com/LuccasAugusto' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-github'></i>
                     </a>
-                    <a target='_blank'>
+                    <a href='https://medium.com/@engapplabs' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-medium-m'></i>
                     </a>
                   </div>
@@ -36,23 +36,23 @@ class AboutUs extends Component {
               </div>
               <div className='col-md-6 col-lg-4 item' data-aos='fade-up'>
                 <div className='box'>
-                  <img className='rounded-circle' src={require('./../img/aurelio.png')} />
+                  <img className='rounded-circle' src={require('./../img/aurelio.png')} alt='Aurélio Buarque' />
                   <h3 className='name'>Aurélio Buarque</h3>
                   <p className='title'>Diretor de Tecnologia</p>
                   <div className='social'>
-                    <a href='https://www.facebook.com/aurelio.buarque' target='_blank'>
+                    <a href='https://www.facebook.com/aurelio.buarque' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-facebook-f'></i>
                     </a>
-                    <a href='https://www.instagram.com/abuarquemf' target='_blank'>
+                    <a href='https://www.instagram.com/abuarquemf' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-instagram'></i>
                     </a>
-                    <a href='https://www.linkedin.com/in/aurelio-buarque' target='_blank'>
+                    <a href='https://www.linkedin.com/in/aurelio-buarque' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-linkedin-in'></i>
                     </a>
-                    <a href='https://github.com/ABuarque' target='_blank'>
+                    <a href='https://github.com/ABuarque' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-github'></i>
                     </a>
-                    <a href='https://medium.com/@abuarquemf' target='_blank'>
+                    <a href='https://medium.com/@abuarquemf' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-medium-m'></i>
                     </a>
                   </div>
@@ -60,23 +60,23 @@ class AboutUs extends Component {
               </div>
               <div className='col-md-6 col-lg-4 item' data-aos='fade-up'>
                 <div className='box'>
-                  <img className='rounded-circle' src={require('./../img/hugo.png')} />
+                  <img className='rounded-circle' src={require('./../img/hugo.png')} alt='Hugo Davi' />
                   <h3 className='name'>Hugo Davi</h3>
                   <p className='title'>Diretor de Operações</p>
                   <div className='social'>
-                    <a href='https://www.facebook.com/hugo.hdado' target='_blank'>
+                    <a href='https://www.facebook.com/hugo.hdado' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-facebook-f'></i>
                     </a>
-                    <a href='https://www.instagram.com/hugodavi' target='_blank'>
+                    <a href='https://www.instagram.com/hugodavi' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-instagram'></i>
                     </a>
-                    <a href='https://www.linkedin.com/in/hugodavi' target='_blank'>
+                    <a href='https://www.linkedin.com/in/hugodavi' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-linkedin-in'></i>
                     </a>
-                    <a href='https://github.com/HugoDavi' target='_blank'>
+                    <a href='https://github.com/HugoDavi' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-github'></i>
                     </a>
-                    <a href='https://medium.com/@hugo.hdado' target='_blank'>
+                    <a href='https://medium.com/@hugo.hdado' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-medium-m'></i>
                     </a>
                   </div>
@@ -84,23 +84,23 @@ class AboutUs extends Component {
               </div>
               <div className='col-md-6 col-lg-4 item' data-aos='fade-up'>
                 <div className='box'>
-                  <img className='rounded-circle' src={require('./../img/malta.png')} />
+                  <img className='rounded-circle' src={require('./../img/malta.png')} alt='Fellipe Malta' />
                   <h3 className='name'>Fellipe Malta</h3>
                   <p className='title'>Head de Front-end</p>
                   <div className='social'>
-                    <a href='https://www.facebook.com/fellipe.dm' target='_blank'>
+                    <a href='https://www.facebook.com/fellipe.dm' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-facebook-f'></i>
                     </a>
-                    <a href='https://www.instagram.com/fellipe.dm' target='_blank'>
+                    <a href='https://www.instagram.com/fellipe.dm' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-instagram'></i>
                     </a>
-                    <a href='https://www.linkedin.com/in/fellipedm' target='_blank'>
+                    <a href='https://www.linkedin.com/in/fellipedm' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-linkedin-in'></i>
                     </a>
-                    <a href='https://github.com/fmmalta' target='_blank'>
+                    <a href='https://github.com/fmmalta' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-github'></i>
                     </a>
-                    <a href='https://medium.com/@fellipemalta' target='_blank'>
+                    <a href='https://medium.com/@fellipemalta' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-medium-m'></i>
                     </a>
                   </div>
@@ -108,23 +108,23 @@ class AboutUs extends Component {
               </div>
               <div className='col-md-6 col-lg-4 item' data-aos='fade-up'>
                 <div className='box'>
-                  <img className='rounded-circle' src={require('./../img/flavio.png')} />
+                  <img className='rounded-circle' src={require('./../img/flavio.png')} alt='Flávio Farias' />
                   <h3 className='name'>Flávio Farias</h3>
                   <p className='title'>Head de Design</p>
                   <div className='social'>
-                    <a href='https://www.facebook.com/flaviofariasjr' target='_blank'>
+                    <a href='https://www.facebook.com/flaviofariasjr' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-facebook-f'></i>
                     </a>
-                    <a href='https://www.instagram.com/flavioaq2' target='_blank'>
+                    <a href='https://www.instagram.com/flavioaq2' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-instagram'></i>
                     </a>
-                    <a href='https://www.linkedin.com/in/ffpsj' target='_blank'>
+                    <a href='https://www.linkedin.com/in/ffpsj' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-linkedin-in'></i>
                     </a>
-                    <a href='https://github.com/ffpsj' target='_blank'>
+                    <a href='https://github.com/ffpsj' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-github'></i>
                     </a>
-                    <a href='https://medium.com/@ffpsj' target='_blank'>
+                    <a href='https://medium.com/@ffpsj' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-medium-m'></i>
                     </a>
                   </div>
@@ -132,23 +132,23 @@ class AboutUs extends Component {
               </div>
               <div className='col-md-6 col-lg-4 item' data-aos='fade-up'>
                 <div className='box'>
-                  <img className='rounded-circle' src={require('./../img/pedro.png')} />
+                  <img className='rounded-circle' src={require('./../img/pedro.png')} alt='Pedro Soares' />
                   <h3 className='name'>Pedro Soares</h3>
                   <p className='title'>Head de Back-end</p>
                   <div className='social'>
-                    <a href='https://www.facebook.com/pedro.soares.58726' target='_blank'>
+                    <a href='https://www.facebook.com/pedro.soares.58726' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-facebook-f'></i>
                     </a>
-                    <a href='https://www.instagram.com/pedroh_soaresc' target='_blank'>
+                    <a href='https://www.instagram.com/pedroh_soaresc' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-instagram'></i>
                     </a>
-                    <a href='https://www.linkedin.com/in/pedrohsoares' target='_blank'>
+                    <a href='https://www.linkedin.com/in/pedrohsoares' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-linkedin-in'></i>
                     </a>
-                    <a href='https://github.com/pedrohsoares' target='_blank'>
+                    <a href='https://github.com/pedrohsoares' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-github'></i>
                     </a>
-                    <a target='_blank'>
+                    <a href='https://medium.com/@engapplabs' target='_blank' rel='noopener noreferrer'>
                       <i className='fab fa-medium-m'></i>
                     </a>
                   </div>

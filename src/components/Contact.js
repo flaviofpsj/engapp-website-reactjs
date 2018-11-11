@@ -16,7 +16,7 @@ class Contact extends Component {
                 <div className='box'>
                   <i className='fa fa-whatsapp icon'></i>
                   <h3 className='name'>Whatsapp</h3>
-                  <a href='https://api.whatsapp.com/send?phone=5582996598159&text=Olá,%20Luccas!%20Estou%20entrando%20em%20contato%20através%20do%20site%20da%20EngApp.' target='_blank'>Luccas Augusto</a>
+                  <a href='https://api.whatsapp.com/send?phone=5582996598159&text=Olá,%20Luccas!%20Estou%20entrando%20em%20contato%20através%20do%20site%20da%20EngApp.' target='_blank' rel='noopener noreferrer'>Luccas Augusto</a>
                   <p id='contact-leg'>Clique no link acima para enviar uma mensagem</p>
                 </div>
               </div>
@@ -24,7 +24,7 @@ class Contact extends Component {
                 <div className='box'>
                   <i className='fa fa-envelope-o icon'></i>
                   <h3 className='name'>E-mail</h3>
-                  <a href='mailto:engapplabs@gmail.com?cc=luccas@engapp.com.br&subject=Contato:&body=Olá!%20Estou%20entrando%20em%20contato%20através%20do%20site%20da%20EngApp.' target='_blank'>engapplabs@gmail.com</a>
+                  <a href='mailto:engapplabs@gmail.com?cc=luccas@engapp.com.br&subject=Contato:&body=Olá!%20Estou%20entrando%20em%20contato%20através%20do%20site%20da%20EngApp.' target='_blank' rel='noopener noreferrer'>engapplabs@gmail.com</a>
                   <p id='contact-leg'>Clique no link acima para enviar uma mensagem</p>
                 </div>
               </div>
