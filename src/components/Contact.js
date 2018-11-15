@@ -26,11 +26,9 @@ class Contact extends Component {
     return (
       <React.Fragment>
         <ScrollableAnchor id={'contato'}>
-          <div>
-            <Parallax bgImage={bgImage} strength={550} bgStyle={this.state.style}>
-              <h1 className='text-white' id='bottom-titles'>Contato</h1>
-            </Parallax>
-          </div>
+          <Parallax bgImage={bgImage} strength={550} bgStyle={this.state.style}>
+            <h1 className='text-white' id='bottom-titles'>Contato</h1>
+          </Parallax>
         </ScrollableAnchor>
         <div className='features-boxed'>
           <div className='container'>
