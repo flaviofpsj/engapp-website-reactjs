@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ScrollableAnchor, { configureAnchors } from 'react-scrollable-anchor';
 
 import AboutUsItem from './AboutUsItem';
 
@@ -20,25 +21,33 @@ class AboutUs extends Component {
     })
   }
 
+  componentWillMount() {
+    configureAnchors({
+      scrollDuration: 800
+    })
+  }
+
   render() {
     return (
       <React.Fragment>
-        <div id='sobre' className='team-boxed'>
-          <div className='container'>
-            <h2 className='text-center' data-aos='fade-up'>A Empresa</h2>
-            <p className='text-center' data-aos='fade-up'>A EngApp é uma empresa de inovação digital e desenvolvimento de software ágil. Combinamos processos de inovação, design de UX, tecnologia de ponta e visão de negócios para criar software que reposiciona os nossos clientes no mundo dos negócios digitais.</p>
-            <h2 className='text-center' data-aos='fade-up'>Membros</h2>
-            <div className='row people'>
-              {
-                Object.keys(this.state.aboutUsItem).map(index => {
-                  return(
-                    <AboutUsItem key={index} content={this.state.aboutUsItem[index]} />
-                  )
-                })
-              }
+        <ScrollableAnchor id={'sobre'}>
+          <div className='team-boxed'>
+            <div className='container'>
+              <h2 className='text-center slideanim'>A Empresa</h2>
+              <p className='text-center slideanim'>A EngApp é uma empresa de inovação digital e desenvolvimento de software ágil. Combinamos processos de inovação, design de UX, tecnologia de ponta e visão de negócios para criar software que reposiciona os nossos clientes no mundo dos negócios digitais.</p>
+              <h2 className='text-center slideanim'>Membros</h2>
+              <div className='row people'>
+                {
+                  Object.keys(this.state.aboutUsItem).map(index => {
+                    return(
+                      <AboutUsItem key={index} content={this.state.aboutUsItem[index]} />
+                    )
+                  })
+                }
+              </div>
             </div>
           </div>
-        </div>
+        </ScrollableAnchor>
       </React.Fragment>
     );
   }

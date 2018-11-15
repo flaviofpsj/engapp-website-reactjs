@@ -4,7 +4,7 @@ class AboutUsItem extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className='col-md-6 col-lg-4 item' data-aos='fade-up'>
+        <div className='col-md-6 col-lg-4 item slideanim'>
           <div className='box'>
             <img className='rounded-circle' src={this.props.content.imageSrc} alt={this.props.content.name} />
             <h3 className='name'>{this.props.content.name}</h3>

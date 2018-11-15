@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Swiper from 'react-id-swiper';
+import 'react-id-swiper/src/styles/css/swiper.css';
 
 import SlideItem from './SlideItem';
 
@@ -26,11 +28,28 @@ class Slide extends Component {
   }
 
   render() {
+    const params = {
+      loop: true,
+      effect: 'fade',
+      navigation: {
+        nextEl: '.swiper-button-next.swiper-button-white',
+        prevEl: '.swiper-button-prev.swiper-button-white',
+      },
+      pagination: {
+        el: '.swiper-pagination.swiper-pagination-white',
+        clickable: true,
+        dynamicBullets: true,
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    }
     return (
       <React.Fragment>
         <div className='simple-slider'>
           <div className='swiper-container'>
-            <div className='swiper-wrapper'>
+            <Swiper {...params} className='swiper-wrapper'>
               {
                 Object.keys(this.state.slideItem).map(index => {
                   return(
@@ -38,10 +57,7 @@ class Slide extends Component {
                   )
                 })
               }
-            </div>
-            <div className='swiper-pagination swiper-pagination-white'></div>
-            <div className='swiper-button-prev swiper-button-white'></div>
-            <div className='swiper-button-next swiper-button-white'></div>
+            </Swiper>
           </div>
         </div>
       </React.Fragment>

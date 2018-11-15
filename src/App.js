@@ -1,23 +1,14 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 
-import Navbar from './components/Navbar';
-import Slide from './components/Slide';
-import AboutUs from './components/AboutUs';
-import Technologies from './components/Technologies';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Home from './Home';
 
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
-        <Navbar />
-        <Slide />
-        <AboutUs />
-        <Technologies />
-        <Contact />
-        <Footer />
-      </React.Fragment>
+      <BrowserRouter>
+        <Route path="/" exact component={Home} />
+      </BrowserRouter>
     );
   }
 }

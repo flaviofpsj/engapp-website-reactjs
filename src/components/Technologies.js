@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+import { Parallax } from 'react-parallax';
+import ScrollableAnchor, { configureAnchors } from 'react-scrollable-anchor';
 
 import TechnologiesItem from './TechnologiesItem';
 
 import config from '../firebase-config';
+
+const bgImage = 'https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/headers%2Ftechnologies.png?alt=media&token=764a3926-9882-4b95-a4e0-4c9a105676fe';
 
 class Technologies extends Component {
 
@@ -11,7 +15,6 @@ class Technologies extends Component {
 
     this.state = {
       style: {
-        backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/headers%2Ftechnologies.png?alt=media&token=764a3926-9882-4b95-a4e0-4c9a105676fe)`,
         backgroundPosition: 'center', backgroundSize: 'cover',
       },
       technologiesItem: {}
@@ -24,12 +27,22 @@ class Technologies extends Component {
     })
   }
 
+  componentWillMount() {
+    configureAnchors({
+      scrollDuration: 1200
+    })
+  }
+
   render() {
     return (
       <React.Fragment>
-        <div style={this.state.style} data-bs-parallax-bg='true' id='tecnologias'>
-          <h1 className='text-white' id='bottom-titles'>Tecnologias</h1>
-        </div>
+        <ScrollableAnchor id={'tecnologias'}>
+          <div>
+            <Parallax bgImage={bgImage} strength={550} bgStyle={this.state.style}>
+              <h1 className='text-white' id='bottom-titles'>Tecnologias</h1>
+            </Parallax>
+          </div>
+        </ScrollableAnchor>
         <div className='features-boxed'>
           <div className='container'>
             <div className='row justify-content-center features'>
