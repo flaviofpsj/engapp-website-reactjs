@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
 import ScrollableAnchor, { configureAnchors } from 'react-scrollable-anchor';
 
-const bgImage = 'https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/headers%2Fcontact.png?alt=media&token=19a3b16b-d07e-4536-a4c5-38ab5782d730';
+const bgImage = 'https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/headers%2Fcontact.png?alt=media&token=f97eb277-8eee-4d1e-9bc5-507ee349b1fb';
 
 class Contact extends Component {
 

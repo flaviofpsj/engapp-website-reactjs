@@ -13,15 +13,15 @@ class Slide extends Component {
       slideItem: [
         {
           title: 'Desenvolvimento de', subtitle: 'Softwares e Aplicativos', icon: 'fa fa-code',
-          style: {backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/topcontent%2Fslide1.png?alt=media&token=0cfa4e7b-ddcc-4661-ae3e-1cc5f246fad4)`},
+          style: {backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/topcontent%2Fslide1.png?alt=media&token=1ba4ecd0-1f93-44f9-8f6e-7beeabcf1b9f)`},
         },
         {
           title: 'Design de', subtitle: 'User Experience', icon: 'fa fa-diamond',
-          style: {backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/topcontent%2Fslide2.png?alt=media&token=3cc3fd97-9eb2-47ce-84c5-a676c2ac9905)`},
+          style: {backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/topcontent%2Fslide2.png?alt=media&token=a2dd6c81-63e8-4650-8167-3b3344bc3b39)`},
         },
         {
           title: 'Planejamento', subtitle: 'de Negócios', icon: 'fa fa-building-o',
-          style: {backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/topcontent%2Fslide3.png?alt=media&token=1c27d101-4db6-4929-9b38-c117b0550251)`},
+          style: {backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/topcontent%2Fslide3.png?alt=media&token=147fe08b-60e7-4ea4-bef9-0c7c99d15bdf)`},
         },
       ]
     }

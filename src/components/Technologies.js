@@ -6,7 +6,7 @@ import TechnologiesItem from './TechnologiesItem';
 
 import config from '../firebase-config';
 
-const bgImage = 'https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/headers%2Ftechnologies.png?alt=media&token=764a3926-9882-4b95-a4e0-4c9a105676fe';
+const bgImage = 'https://firebasestorage.googleapis.com/v0/b/engapp-website-reactjs.appspot.com/o/headers%2Ftechnologies.png?alt=media&token=0846d64f-e167-4e01-8e97-5521a5d7d261';
 
 class Technologies extends Component {
 
